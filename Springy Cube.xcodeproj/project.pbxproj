@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3027AEC1D3C4034005533F0 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3027AEB1D3C4034005533F0 /* GoogleMobileAds.framework */; };
+		D33B357E1D3E743500CC04A1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33B357D1D3E743500CC04A1 /* AVFoundation.framework */; };
 		D3527FC01D301E79007B41D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3527FBF1D301E79007B41D4 /* AppDelegate.swift */; };
-		D3527FC21D301E79007B41D4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D3527FC11D301E79007B41D4 /* GameScene.sks */; };
-		D3527FC41D301E79007B41D4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3527FC31D301E79007B41D4 /* GameScene.swift */; };
 		D3527FC61D301E79007B41D4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3527FC51D301E79007B41D4 /* GameViewController.swift */; };
 		D3527FC91D301E79007B41D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3527FC71D301E79007B41D4 /* Main.storyboard */; };
 		D3527FCB1D301E79007B41D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3527FCA1D301E79007B41D4 /* Assets.xcassets */; };
 		D3527FCE1D301E79007B41D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3527FCC1D301E79007B41D4 /* LaunchScreen.storyboard */; };
 		D3527FD91D301E79007B41D4 /* Springy_CubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3527FD81D301E79007B41D4 /* Springy_CubeTests.swift */; };
 		D3527FE41D301E79007B41D4 /* Springy_CubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3527FE31D301E79007B41D4 /* Springy_CubeUITests.swift */; };
+		D3527FF81D30200B007B41D4 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3527FF71D30200B007B41D4 /* MainMenuScene.swift */; };
+		D3527FFA1D302016007B41D4 /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D3527FF91D302016007B41D4 /* MainMenuScene.sks */; };
+		D3527FFE1D30960C007B41D4 /* PhosphateInline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3527FFD1D30960C007B41D4 /* PhosphateInline.ttf */; };
+		D35280001D3097C0007B41D4 /* GameplayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3527FFF1D3097C0007B41D4 /* GameplayScene.swift */; };
+		D35280021D3097C9007B41D4 /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D35280011D3097C9007B41D4 /* GameplayScene.sks */; };
+		D35280071D331369007B41D4 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35280061D331369007B41D4 /* GameManager.swift */; };
+		D3C4E3281D37DF070068DACD /* GameoverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C4E3271D37DF070068DACD /* GameoverScene.swift */; };
+		D3C4E32A1D37DF120068DACD /* GameoverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D3C4E3291D37DF120068DACD /* GameoverScene.sks */; };
+		D3C4E32C1D3981850068DACD /* Jump1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3C4E32B1D3981850068DACD /* Jump1.mp3 */; };
+		D3C4E32E1D3AB70D0068DACD /* PointEarned1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3C4E32D1D3AB70D0068DACD /* PointEarned1.mp3 */; };
+		D3C4E3331D3AC7CE0068DACD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C4E3321D3AC7CE0068DACD /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D3027AEB1D3C4034005533F0 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		D33B357D1D3E743500CC04A1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D3527FBC1D301E79007B41D4 /* Springy Cube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Springy Cube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3527FBF1D301E79007B41D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3527FC11D301E79007B41D4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		D3527FC31D301E79007B41D4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D3527FC51D301E79007B41D4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D3527FC81D301E79007B41D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3527FCA1D301E79007B41D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +62,17 @@
 		D3527FDF1D301E79007B41D4 /* Springy CubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Springy CubeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3527FE31D301E79007B41D4 /* Springy_CubeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Springy_CubeUITests.swift; sourceTree = "<group>"; };
 		D3527FE51D301E79007B41D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3527FF71D30200B007B41D4 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		D3527FF91D302016007B41D4 /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
+		D3527FFD1D30960C007B41D4 /* PhosphateInline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PhosphateInline.ttf; sourceTree = "<group>"; };
+		D3527FFF1D3097C0007B41D4 /* GameplayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplayScene.swift; sourceTree = "<group>"; };
+		D35280011D3097C9007B41D4 /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
+		D35280061D331369007B41D4 /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		D3C4E3271D37DF070068DACD /* GameoverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameoverScene.swift; sourceTree = "<group>"; };
+		D3C4E3291D37DF120068DACD /* GameoverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameoverScene.sks; sourceTree = "<group>"; };
+		D3C4E32B1D3981850068DACD /* Jump1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Jump1.mp3; sourceTree = "<group>"; };
+		D3C4E32D1D3AB70D0068DACD /* PointEarned1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PointEarned1.mp3; sourceTree = "<group>"; };
+		D3C4E3321D3AC7CE0068DACD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D33B357E1D3E743500CC04A1 /* AVFoundation.framework in Frameworks */,
+				D3027AEC1D3C4034005533F0 /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +105,14 @@
 		D3527FB31D301E79007B41D4 = {
 			isa = PBXGroup;
 			children = (
+				D33B357D1D3E743500CC04A1 /* AVFoundation.framework */,
+				D3027AEB1D3C4034005533F0 /* GoogleMobileAds.framework */,
+				D3C4E3311D3AC7C00068DACD /* Constants */,
+				D35280031D331347007B41D4 /* Manager */,
 				D3527FBE1D301E79007B41D4 /* Springy Cube */,
+				D3527FF11D301FB1007B41D4 /* Classes */,
+				D3527FF21D301FB6007B41D4 /* Scenes */,
+				D3527FF31D301FBC007B41D4 /* Assets */,
 				D3527FD71D301E79007B41D4 /* Springy CubeTests */,
 				D3527FE21D301E79007B41D4 /* Springy CubeUITests */,
 				D3527FBD1D301E79007B41D4 /* Products */,
@@ -102,8 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				D3527FBF1D301E79007B41D4 /* AppDelegate.swift */,
-				D3527FC11D301E79007B41D4 /* GameScene.sks */,
-				D3527FC31D301E79007B41D4 /* GameScene.swift */,
 				D3527FC51D301E79007B41D4 /* GameViewController.swift */,
 				D3527FC71D301E79007B41D4 /* Main.storyboard */,
 				D3527FCA1D301E79007B41D4 /* Assets.xcassets */,
@@ -129,6 +158,68 @@
 				D3527FE51D301E79007B41D4 /* Info.plist */,
 			);
 			path = "Springy CubeUITests";
+			sourceTree = "<group>";
+		};
+		D3527FF11D301FB1007B41D4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D3527FF71D30200B007B41D4 /* MainMenuScene.swift */,
+				D3527FFF1D3097C0007B41D4 /* GameplayScene.swift */,
+				D3C4E3271D37DF070068DACD /* GameoverScene.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D3527FF21D301FB6007B41D4 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				D3527FF91D302016007B41D4 /* MainMenuScene.sks */,
+				D35280011D3097C9007B41D4 /* GameplayScene.sks */,
+				D3C4E3291D37DF120068DACD /* GameoverScene.sks */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		D3527FF31D301FBC007B41D4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D3527FF61D301FCF007B41D4 /* Sounds */,
+				D3527FF41D301FC4007B41D4 /* Fonts */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		D3527FF41D301FC4007B41D4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D3527FFD1D30960C007B41D4 /* PhosphateInline.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		D3527FF61D301FCF007B41D4 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D3C4E32D1D3AB70D0068DACD /* PointEarned1.mp3 */,
+				D3C4E32B1D3981850068DACD /* Jump1.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		D35280031D331347007B41D4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D35280061D331369007B41D4 /* GameManager.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		D3C4E3311D3AC7C00068DACD /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D3C4E3321D3AC7CE0068DACD /* Constants.swift */,
+			);
+			name = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,13 +290,17 @@
 				TargetAttributes = {
 					D3527FBB1D301E79007B41D4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4MT66R8K77;
+						LastSwiftMigration = 0820;
 					};
 					D3527FD31D301E79007B41D4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = D3527FBB1D301E79007B41D4;
 					};
 					D3527FDE1D301E79007B41D4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = D3527FBB1D301E79007B41D4;
 					};
 				};
@@ -235,10 +330,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3527FC21D301E79007B41D4 /* GameScene.sks in Resources */,
 				D3527FCE1D301E79007B41D4 /* LaunchScreen.storyboard in Resources */,
 				D3527FCB1D301E79007B41D4 /* Assets.xcassets in Resources */,
 				D3527FC91D301E79007B41D4 /* Main.storyboard in Resources */,
+				D3527FFE1D30960C007B41D4 /* PhosphateInline.ttf in Resources */,
+				D3C4E32C1D3981850068DACD /* Jump1.mp3 in Resources */,
+				D3C4E32A1D37DF120068DACD /* GameoverScene.sks in Resources */,
+				D35280021D3097C9007B41D4 /* GameplayScene.sks in Resources */,
+				D3527FFA1D302016007B41D4 /* MainMenuScene.sks in Resources */,
+				D3C4E32E1D3AB70D0068DACD /* PointEarned1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,9 +363,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3527FC41D301E79007B41D4 /* GameScene.swift in Sources */,
+				D35280001D3097C0007B41D4 /* GameplayScene.swift in Sources */,
 				D3527FC61D301E79007B41D4 /* GameViewController.swift in Sources */,
+				D3C4E3281D37DF070068DACD /* GameoverScene.swift in Sources */,
+				D3527FF81D30200B007B41D4 /* MainMenuScene.swift in Sources */,
+				D3C4E3331D3AC7CE0068DACD /* Constants.swift in Sources */,
 				D3527FC01D301E79007B41D4 /* AppDelegate.swift in Sources */,
+				D35280071D331369007B41D4 /* GameManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,10 +511,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Springy Cube/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Springy-Cube";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -418,10 +529,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Springy Cube/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Springy-Cube";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -434,6 +552,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Springy-CubeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Springy Cube.app/Springy Cube";
 			};
 			name = Debug;
@@ -446,6 +565,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Springy-CubeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Springy Cube.app/Springy Cube";
 			};
 			name = Release;
@@ -458,6 +578,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Springy-CubeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Springy Cube";
 			};
 			name = Debug;
@@ -469,6 +590,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Springy-CubeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Springy Cube";
 			};
 			name = Release;
@@ -492,6 +614,7 @@
 				D3527FEA1D301E79007B41D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3527FEB1D301E79007B41D4 /* Build configuration list for PBXNativeTarget "Springy CubeTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +623,7 @@
 				D3527FED1D301E79007B41D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3527FEE1D301E79007B41D4 /* Build configuration list for PBXNativeTarget "Springy CubeUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +632,7 @@
 				D3527FF01D301E79007B41D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
